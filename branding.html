@@ -13,6 +13,14 @@
         }
       } catch (e) {}
     </script>
+    <script>
+    const titleObserver = new MutationObserver(() => {
+    if (document.title !== "Filipa Paixão - Portfolio") {
+      document.title = "Filipa Paixão - Portfolio";
+    }
+  });
+  titleObserver.observe(document.querySelector('title'), { childList: true });
+</script>
     <!-- Start of headStart -->
 
     <!-- End of headStart -->

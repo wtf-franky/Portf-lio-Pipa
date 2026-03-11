@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>index.html</loc></url>
-  <url><loc>about-me/index.html</loc></url>
-  <url><loc>art/index.html</loc></url>
-  <url><loc>branding/index.html</loc></url>
-  <url><loc>branding/ecop4ws/index.html</loc></url>
+  <url><loc>about-me/about-me.html</loc></url>
+  <url><loc>art.html</loc></url>
+  <url><loc>branding.html</loc></url>
+  <url><loc>ecop4ws/index.html</loc></url>
   <url><loc>branding/elitewear/index.html</loc></url>
   <url><loc>branding/exviae/index.html</loc></url>
   <url><loc>branding/gelatariaxana/index.html</loc></url>

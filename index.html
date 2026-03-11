@@ -13,13 +13,18 @@
         }
       } catch (e) {}
     </script>
-    <script>
+<script>
+  window.addEventListener('load', function() {
+    const titleEl = document.querySelector('title');
+    if (!titleEl) return;
     const titleObserver = new MutationObserver(() => {
-    if (document.title !== "Filipa Paixão - Portfolio") {
-      document.title = "Filipa Paixão - Portfolio";
-    }
+      if (document.title !== "Filipa Paixão - Portfolio") {
+        document.title = "Filipa Paixão - Portfolio";
+      }
+    });
+    titleObserver.observe(titleEl, { childList: true });
+    document.title = "Filipa Paixão - Portfolio";
   });
-  titleObserver.observe(document.querySelector('title'), { childList: true });
 </script>
     <!-- Start of headStart -->
 

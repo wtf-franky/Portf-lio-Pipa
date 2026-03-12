@@ -1223,17 +1223,11 @@
       @supports (z-index: calc(infinity)) {
         #__framer-badge-container {
           --infinity: infinity;
+          display: none !important;
         }
       }
       #__framer-badge-container {
-        pointer-events: none;
-        width: 100%;
-        z-index: calc(var(--infinity, 2147480000));
-        justify-content: flex-end;
-        padding: 20px;
-        display: flex;
-        position: fixed;
-        bottom: 0;
+        display: none !important;
       }
       @supports (background: -webkit-named-image(i)) and
         (not (grid-template-rows: subgrid)) {
